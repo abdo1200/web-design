@@ -1,0 +1,742 @@
+*{
+ margin: 0;
+ padding: 0;
+ 
+}
+html{
+    background: #C5CCCD;
+    overflow-x: hidden;
+}
+
+
+header{
+ height: 80px;
+ width: 100%;
+ background-size: 100% 700px;
+ /*background: #6EA1D5;*/
+}
+.navbar{
+
+  height: 80px;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0));
+	height: 100px;
+  	
+}
+.navbar:hover{
+	background: rgba(0,0,0,0.5);
+	
+}
+.navbar ul 
+{
+  list-style: none;
+  float: right;	
+  	
+}
+.navbar li{
+  float: left;
+	
+ 
+  
+}
+.navbar li a{
+  margin-right: 40px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  
+}
+nav ul li button{
+	margin-top: -10px;
+  margin-right: 20px;
+  width: 80px;
+  height: 40px;
+  background: white;
+  color: white;
+  border-radius: 6px;
+  border: 0px;
+  transition: .5s;
+  
+
+ 
+ }
+nav ul li button span
+{
+  color: black;
+  font-size: 20px;
+  font-family: serif;
+}
+
+
+nav h1
+{
+  margin-left: 35px;
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  color: white;
+}
+.navbar li a{
+  margin-right: 40px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  
+}
+nav ul li button{
+	margin-top: -10px;
+  margin-right: 20px;
+  width: 80px;
+  height: 40px;
+  background: white;
+  color: white;
+  border-radius: 6px;
+  border: 0px;
+  transition: .5s;
+  
+
+ 
+ }
+nav ul li button span{
+  color: black;
+  font-size: 20px;
+  font-family: serif;
+}
+
+  
+.logo{
+  position: relative;
+  left: 30px;
+  top: 8px;
+}
+.logo span{
+  position: relative;
+  top: 10px;
+}
+.logo span i{
+  font-size: 50px;
+  color: white;
+}
+nav h1{
+  margin-left: 35px;
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  color: white;
+}
+
+
+/*-----------------------------------end header -------------------------------*/
+
+
+/*-------------------------- start slide sectio --------------------------------*/
+.slideshow{
+  margin: 0 auto;    
+  width: 100%;
+  height: 700px;
+  background: #C5CCCD;
+
+}
+.slideshow .he{
+    position: relative;
+    top: 40px;
+    left: 500px;
+    width: 300px;
+    height: 60px;
+    background: white;
+    color: #6EA1D5;
+    text-align: center;
+    border: 5px solid #6EA1D5;
+    border-radius: 40px;
+    transition: .3s;
+}
+.slideshow .he:hover{
+    transform: scale(1.1,1.1);
+}
+.he h1{
+ font-size: 35px;
+    margin-top: 10px;
+}
+.slider{
+    margin: 0 auto;
+    width: 70%;
+  overflow: hidden;
+  height: 500px;
+     
+
+}
+.slider figure div{
+  float: left;
+  margin-top: 100px;
+  width: 20%;
+  
+}
+.slider figure img{
+  width: 100%;
+  height: 400px;
+  float: left;
+}
+.slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0 auto;
+  left: 0;
+  animation: 20s ravi infinite;
+}
+
+@keyframes ravi{
+  0%{
+    left: 0%;
+  }
+  10%{
+    left: 0%;
+  }
+  12%{
+    left:-100%;
+  }
+  22%{
+    left:-100%;
+  }
+  24%{
+    left:-200%;
+  }
+  34%{
+    left:-200%;
+  }
+  36%{
+    left:-300%;
+  }
+  46%{
+    left:-300%;
+  }
+  48%{
+    left:-400%;
+  }
+  58%{
+    left:-400%;
+  }
+
+}
+
+
+/*------------------------------------------where section--------------------*/
+
+
+/*------------------------------------------madred section--------------------*/
+.where{
+ background: #6EA1D5;
+ height: 2000px;
+}
+.add1{
+ height: 80px;
+ width: 300px;
+ background: white;
+ margin-left: 450px;
+ position: relative;
+ top: -40px;
+ border-radius: 40px;
+ text-align: center;
+}
+
+.where span{
+ position: relative;
+ top: 17px;
+ font-size: 40px;
+
+}
+.madrid{
+ width: 100%;
+ height: 500px;
+ background: #6EA1D5;
+}
+.left1 {
+ float: left;
+ height: 500px;
+ width: 500px;
+}
+.madrid h1{
+margin-top: 20px;
+margin-left: 20px;
+}
+
+.madrid p{
+ margin-left: 20px;
+}
+
+.right{
+ float: right;
+ margin-right: 20px;
+ height: 270px;
+ width: 400px;
+}
+.right img{
+  height: 100%;
+ width: 100%;
+}
+/*------------------------------------------end section--------------------*/
+
+
+
+
+
+/*------------------------------------------BARCELONA section--------------------*/
+.BARCELONA{
+ width: 100%;
+ height: 500px;
+ float: left;
+ margin-top: -100px;
+}
+.left2 {
+ float: left;
+ height: 500px;
+ width: 500px;
+}
+.BARCELONA h1{
+margin-top: 20px;
+margin-left: 20px;
+}
+
+.BARCELONA p{
+ margin-left: 20px;
+}
+
+.right2{
+ float: right;
+ margin-right: 20px;
+ height: 270px;
+ width: 400px;
+}
+.right2 img{
+  height: 100%;
+ width: 100%;
+}
+
+/*------------------------------------------end section--------------------*/
+
+
+
+
+
+/*------------------------------------------COSTA section--------------------*/
+.COSTA{
+ width: 100%;
+ height: 500px;
+ background: #6EA1D5;
+ float: left;
+ margin-top: -100px;
+}
+.left3 {
+ float: left;
+ height: 500px;
+ width: 500px;
+}
+.COSTA h1{
+margin-top: 20px;
+margin-left: 20px;
+}
+
+.COSTA p{
+ margin-left: 20px;
+}
+
+.right3{
+ float: right;
+ margin-right: 20px;
+ height: 270px;
+ width: 400px;
+}
+.right3 img{
+  height: 100%;
+ width: 100%;
+}
+
+/*------------------------------------------where section--------------------*/
+
+
+
+
+
+/*------------------------------------------VALENCIA section--------------------*/
+
+.VALENCIA{
+ width: 100%;
+ height: 500px;
+ background: #6EA1D5;
+ float: left;
+ margin-top: -100px;
+}
+.left4 {
+ float: left;
+ height: 500px;
+ width: 500px;
+}
+.VALENCIA h1{
+margin-top: 20px;
+margin-left: 20px;
+}
+
+.VALENCIA p{
+ margin-left: 20px;
+}
+
+.right4{
+ float: right;
+ margin-right: 20px;
+ height: 270px;
+ width: 400px;
+}
+.right4 img{
+  height: 100%;
+ width: 100%;
+}
+
+/*------------------------------------------where section--------------------*/
+
+
+
+
+
+
+
+/*------------------------------------------SEVILLE section--------------------*/
+
+.SEVILLE{
+ width: 100%;
+ height: 500px;
+ background: #6EA1D5;
+ float: left;
+ margin-top: -100px;
+}
+.left5 {
+ float: left;
+ height: 500px;
+ width: 500px;
+}
+.SEVILLE h1{
+margin-top: 20px;
+margin-left: 20px;
+}
+
+.SEVILLE p{
+ margin-left: 20px;
+}
+
+.right5{
+ float: right;
+ margin-right: 20px;
+ height: 270px;
+ width: 400px;
+}
+.right5 img{
+  height: 100%;
+ width: 100%;
+}
+
+/*-------------------- end section-------------------------*/
+
+
+/*-------------------- start popular section-------------------------*/
+
+.popular{
+ background: white;
+ width: 100%;
+ height: 2500px;
+}
+.pop{
+ float: left;
+ margin-top: 140px;
+ margin-left: 340px;
+ height: 80px;
+ width: 600px;
+ background: white;
+ text-align: center;
+ border-radius: 40px;
+ border: 10px solid #ACC0E9;
+ transition: .3s;
+}
+.pop:hover{
+ transform: scale(1.2,1.2)
+}
+.pop h1{
+ margin-left: -8px;
+ margin-top: 27px;
+}
+/*----------------------- frist------------*/
+.frist{
+ float: left;
+ margin-top: 200px;
+ margin-left: 40px;
+ height: 80px;
+ width: 600px;
+ background: #ACC0E9;
+ text-align: center;
+ border-radius: 0 40px 40px 0;
+}
+.frist h2{
+ margin-left: -8px;
+ margin-top: 27px;
+}
+.lefti{
+ float: right;
+ margin-top: 100px;
+ margin-right: 100px;
+ border-radius: 50%;
+}
+
+/*----------------------- second------------*/
+.frist2{
+ float: right;
+ margin-top: 150px;
+ margin-right: 40px;
+ height: 80px;
+ width: 600px;
+ background: #ACC0E9;
+ text-align: center;
+ border-radius:  40px 0 0 40px ;
+}
+.frist2 h2{
+ margin-left: -8px;
+ margin-top: 27px;
+}
+.lefti2{
+ float: left;
+ margin-top: 170px;
+ margin-left: 100px;
+ width: 474px;
+ height: 316px;
+ border-radius: 50%;
+}
+
+
+/*----------------------- third------------*/
+
+.frist3{
+ float: left;
+ margin-top: 200px;
+ margin-left: 40px;
+ height: 80px;
+ width: 600px;
+ background: #ACC0E9;
+ text-align: center;
+ border-radius: 0 40px 40px 0;
+}
+.frist3 h2{
+ margin-left: -8px;
+ margin-top: 27px;
+}
+.lefti3{
+ float: right;
+ margin-top: 200px;
+ margin-right: 100px;
+ width: 474px;
+ height: 316px;
+ border-radius: 50%;
+}
+
+
+
+/*----------------------- fourth------------*/
+
+.frist4{
+ float: right;
+ margin-top: 150px;
+ margin-right: 40px;
+ height: 80px;
+ width: 600px;
+ background: #ACC0E9;
+ text-align: center;
+ border-radius:  40px 0 0 40px ;
+}
+.frist4 h2{
+ margin-left: -8px;
+ margin-top: 27px;
+}
+.lefti4{
+ float: left;
+ margin-top: 150px;
+ margin-left: 100px;
+ width: 474px;
+ height: 316px;
+ border-radius: 50%;
+}
+
+
+/*----------------------- fifth------------*/
+
+.frist5{
+ float: left;
+ margin-top: 200px;
+ margin-left: 40px;
+ height: 80px;
+ width: 600px;
+ background: #ACC0E9;
+ text-align: center;
+ border-radius: 0 40px 40px 0;
+}
+.frist5 h2{
+ margin-left: -8px;
+ margin-top: 27px;
+}
+.lefti5{
+ float: right;
+ margin-top: 200px;
+ margin-right: 100px;
+ width: 474px;
+ height: 316px;
+ border-radius: 50%;
+}
+
+
+
+
+.parks{
+ height: 600px;
+ width: 100%;
+background-color: #C5CCCD;
+}
+
+.all h1{
+margin-top: 15px;
+margin-left: 37px;
+}
+.all img{
+ margin-top: 80px;
+ margin-left: 15px;
+ height: 250px;
+ width: 250px;
+ border-radius: 50%;
+}
+
+.all .cs{
+  margin-left: 500px;
+ margin-top: 70px;
+ height: 70px;
+ width: 350px;
+background-color: white;
+border: 5px solid #ACC0E9;
+color: #ACC0E9;
+border-radius: 40px;
+transition: 1s;
+}
+.cs:hover{
+ transform: scale(1.1,1.1);
+ color: white;
+ border: 5px solid white;
+ background: #ACC0E9;
+}
+
+ .sor1{
+  
+  margin-left: 20px;
+  margin-top: 80px;
+  height: 240px;
+  width: 240px;
+  border-radius: 50%;
+  display: inline-block; 
+ }
+ .sor1:hover{
+  background: white;
+  opacity: .2;
+  
+  
+ }
+ .o1{
+  position: relative;
+  display: inline-block;
+  }
+ .o1:hover .sor1{
+  opacity: 0.2;
+ }
+ .o2{
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  }
+ .o1:hover .o2{
+  opacity: 1;
+ }
+ .o3{
+  font-size: 30px;
+  color: black;
+  font-style: italic;
+  float: left;
+  margin-top: 40px;
+ }
+
+
+
+
+                       /*---------------------------- footer-------------------*/
+
+
+.icons
+{
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+#icons
+{
+    padding: 10px;
+}
+.fa
+{
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook
+{
+    background-color: #3A589E;
+    color: white;
+    
+  
+}
+.fa-twitter
+{
+    background-color: #5FA8DC;
+     color: white;
+   
+}
+.fa-instagram
+{
+   background-color: #D23095;
+     color: white;
+   
+}
+
+footer
+{
+    color: #5a5c51;
+    text-align: center;
+    font-size: 18px;
+}
+.footer
+{
+ margin-top: 0px;
+ float: left;
+ margin-left: 550px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
